@@ -1,17 +1,17 @@
 # Laboratory 7
   
 ## Program Instructions
-1. Write a Python package with sub-packages, modules, and functions using keyword arguments.  Use the following directory outline and module names (your first starting point should be a directory called mathematics within your lab05-username directory):
+1. Write a Python package with sub-packages, modules, and functions using keyword arguments.  Use the following mathematics within your lab05-username directory):
 
 mathematics/
 		__init__.py
 		whoami.py
-		numbers/
+numbers/
 			__init__.py
 			whoami.py
 			series.py
 			simple.py
-		geometry/
+geometry/
 			__init__.py
 			whoami.py
 			rectangle.py
@@ -22,7 +22,8 @@ mathematics/
        . Initialize the __all__ variable to the whoami module.
        . Create a whoami module.
           . Create a function named getname which returns the __name__ variable.
-     . Create a numbers sub-package.
+     .
+      Create a numbers sub-package.
           . Initialize the __all__ variable to the whoami and series modules.
           . Create a whoami module.
                . Create a function named getname which returns the __name__ variable.
